@@ -1,13 +1,17 @@
+body {
+  background: var(--color-primary);
+}
+
 #page-landing {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  color: var(--color-text-in-primary);
   background: var(--color-primary);
+  color: var(--color-text-in-primary);
 }
 
 .logo-container img {
@@ -26,14 +30,14 @@
 .logo-container h2 {
   font-weight: 500;
   font-size: 2.4rem;
-  line-height: 4.6rem;
   margin-top: 0.8rem;
+  line-height: 4.6rem;
 }
 
 .buttons-container {
   display: flex;
-  justify-content: center;
   margin: 3.2rem 0;
+  justify-content: center;
 }
 
 .buttons-container a {
