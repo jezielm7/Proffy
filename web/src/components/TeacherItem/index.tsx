@@ -17,21 +17,22 @@ function TeacherItem() {
 
       <p>
         Entusiasta das melhores tecnologias de Desenvolvimento Móvel.
-            <br /><br />
-            Apaixonado pelo ecossistema de tecnologias de desenvolvimento móvel,
-            sempre em busca de conhecimento para construir soluções através de apps.
-          </p>
+        <br /><br />
+        Apaixonado pelo ecossistema de tecnologias híbridas e um grande 
+        fã do (RN ⚛). Sempre em busca do aperfeiçoamento e de novos 
+        conhecimentos para construir soluções cada vez melhores através de apps.
+      </p>
 
       <footer>
         <p>
           Preço/hora
-              <strong>R$ 70,00</strong>
+          <strong>R$ 70,00</strong>
         </p>
 
         <button type="button">
           <img src={whatsappIcon} alt="WhatsApp" />
-              Entrar em contato
-            </button>
+          Entrar em contato
+        </button>
       </footer>
     </article>
   );
