@@ -5,7 +5,7 @@ import { AppLoading } from 'expo';
 import { Archivo_400Regular, Archivo_700Bold } from '@expo-google-fonts/archivo';
 import { Poppins_400Regular, Poppins_600SemiBold, useFonts } from '@expo-google-fonts/poppins';
 
-import Routes from './src/routes/routes';
+import AppStack from './src/routes/routes';
 
 export default function App() {
   let [fontLoaded] = useFonts({
@@ -20,7 +20,7 @@ export default function App() {
   } else {
     return (
       <>
-        <Routes />
+        <AppStack />
         <StatusBar style="light" />
       </>
     );
