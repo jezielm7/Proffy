@@ -6,11 +6,15 @@ const routes = express.Router();
 
 const classesController = new ClassesController();
 const connectionsController = new ConnectionsController();
+routes
+  .route('/classes')
+  .get(classesController.index)
+  .post(classesController.create);
 
-routes.get('/classes', classesController.index);
-routes.post('/classes', classesController.create);
+routes
+  .route('/connections')
+  .get(connectionsController.index)
+  .post(connectionsController.create);
 
-routes.get('/connections', connectionsController.index);
-routes.post('/connections', connectionsController.create);
 
 export default routes;
